@@ -23,10 +23,10 @@ namespace NumericalMethods
             // 1 задание: x * Math.Sin(x) - 1
             // 6 задание: 8 * Math.Cos(x) - x - 6
             Console.WriteLine($"Ответ методом половинного деления: " +
-                $"{Division(a, b, e, x => 8 * Math.Cos(x) - x - 6)}");
+                $"{Calculate(a, b, e, x => 8 * Math.Cos(x) - x - 6)}");
         }
 
-        static double Division(double a, double b, double e, Func<double, double> func)
+        static double Calculate(double a, double b, double e, Func<double, double> func)
         {
             double c;
 

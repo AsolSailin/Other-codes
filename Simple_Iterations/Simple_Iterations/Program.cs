@@ -17,8 +17,8 @@ namespace NumericalMethods
             var e = double.Parse(Console.ReadLine());
             Console.WriteLine($"---");
 
-            // 1 задание: x * Math.Sin(x) - 1
-            // 6 задание: x + 
+            // 1 задание: 1 / Math.Sin(x)
+            // 6 задание: x + 0.1 * (8 * Math.Cos(x) - x - 6)
             Console.WriteLine($"Ответ методом простых итераций: " +
                 $"{Calculate(x0, e, x => x + 0.1 * (8 * Math.Cos(x) - x - 6))}");
         }

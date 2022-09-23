@@ -26,7 +26,8 @@ namespace NumericalMethods
                 $"{Calculate(a, b, e, x => 8 * Math.Cos(x) - x - 6)}");
         }
 
-        static double Calculate(double a, double b, double e, Func<double, double> func)
+        static double Calculate(double a, double b, double e, 
+            Func<double, double> func)
         {
             double c;
 

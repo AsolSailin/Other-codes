@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Руслана\\source\\repos\\Other-codes\\Gauss\\Gauss\\Gauss 1.csproj",
-      "projectName": "Gauss 1",
-      "projectPath": "C:\\Users\\Руслана\\source\\repos\\Other-codes\\Gauss\\Gauss\\Gauss 1.csproj",
+      "projectUniqueName": "C:\\Users\\Руслана\\source\\repos\\Other-codes\\Gauss\\Gauss\\Gauss.csproj",
+      "projectName": "Gauss",
+      "projectPath": "C:\\Users\\Руслана\\source\\repos\\Other-codes\\Gauss\\Gauss\\Gauss.csproj",
       "packagesPath": "C:\\Users\\Руслана\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Руслана\\source\\repos\\Other-codes\\Gauss\\Gauss\\obj\\",
       "projectStyle": "PackageReference",

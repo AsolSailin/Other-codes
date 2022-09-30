@@ -1,0 +1,15 @@
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\bin\Debug\net6.0\Gauss 1.exe
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\bin\Debug\net6.0\Gauss 1.deps.json
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\bin\Debug\net6.0\Gauss 1.runtimeconfig.json
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\bin\Debug\net6.0\Gauss 1.dll
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\bin\Debug\net6.0\Gauss 1.pdb
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\obj\Debug\net6.0\Gauss 1.csproj.AssemblyReference.cache
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\obj\Debug\net6.0\Gauss 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\obj\Debug\net6.0\Gauss 1.AssemblyInfoInputs.cache
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\obj\Debug\net6.0\Gauss 1.AssemblyInfo.cs
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\obj\Debug\net6.0\Gauss 1.csproj.CoreCompileInputs.cache
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\obj\Debug\net6.0\Gauss 1.dll
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\obj\Debug\net6.0\refint\Gauss 1.dll
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\obj\Debug\net6.0\Gauss 1.pdb
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\obj\Debug\net6.0\Gauss 1.genruntimeconfig.cache
+C:\Users\Руслана\source\repos\Other-codes\Gauss\Gauss\obj\Debug\net6.0\ref\Gauss 1.dll

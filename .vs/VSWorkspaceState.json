@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Gauss",
+    "\\Gauss\\Gauss",
     "\\Simple_Iterations\\Simple_Iterations"
   ],
+  "SelectedNode": "\\Gauss\\Gauss\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

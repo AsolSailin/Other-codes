@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Gauss\\Gauss",
-    "\\Half_Division\\Half_Division",
-    "\\Half_Division_2\\Half_Division_2",
-    "\\Simple_Iterations\\Simple_Iterations"
+    "\\Iterations",
+    "\\Iterations\\Iterations"
   ],
+  "SelectedNode": "\\Iterations\\Iterations\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

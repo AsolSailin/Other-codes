@@ -10,49 +10,48 @@ namespace NumericalMethods
     {
         static void Main(string[] args)
         {
-            int n = 4;
+            int n = 3;
             double e = 0.001;
             double[,] a =
             {
-                { -6.32, 4.51, -3.84, -7.38, -6.56 },
-                { 4.22, -4.13, -4.16, -1.93, 6.36 },
-                { 1.90, -2.56, -3.94, -1.61, -8.84 },
-                { 7.29, -1.49, 1.79, 6.11, 8.00 },
-                { -0.70, -2.39, -4.08, -6.90, 1.65 }
+                { 16.63, -0.24, -6.10, 7.29 },
+                { -3.45, -23.13, 1.11, -3.41 },
+                { 3.76, -8.72, -27.01, -8.19 },
             };
 
             double[] y = new double[n];
             y = Colculate(n, e, a, y);
 
-            foreach(var yn in y)
+            for (int i = 0; i < y.Length; i++)
             {
-                Console.WriteLine();
+                Console.WriteLine(y[i] + " ");
             }
         }
 
         static double[] Colculate(int n, double e, double[,] matrix, double[] y)
         {
             double[] x = new double[n];
-            double d;
-            if (GetConvergence(n, matrix))
+            double d  = 0;
+
+            if (Math.Sqrt(GetConvergence(n, matrix, d)) < 1)
             {
                 for (int i = 0; i < n; i++)
                 {
-                    x[i] = matrix[i, n + 1];
+                    x[i] = matrix[i, n];
                 }
 
                 d = 0;
 
                 for (int i = 0; i < n; i++)
                 {
-                    d = d + Math.Pow((y[i] - x[i]), 2);
+                    y[i] = matrix[i, n];
 
                     for (int j = 0; j < n; j++)
                     {
-                        y[i] = y[i] + matrix[i, j] * x[j];
+                        y[i] += matrix[i, j] * x[j];
                     }
 
-                    y[i] = matrix[i, n + 1];
+                    d += Math.Pow((y[i] - x[i]), 2);
                 }
 
                 d = Math.Sqrt(d);
@@ -68,14 +67,14 @@ namespace NumericalMethods
 
                     for (int i = 0; i < n; i++)
                     {
-                        d = d + Math.Pow((y[i] - x[i]), 2);
+                        y[i] = matrix[i, n];
 
                         for (int j = 0; j < n; j++)
                         {
-                            y[i] = y[i] + matrix[i, j] * x[j];
+                            y[i] += matrix[i, j] * x[j];
                         }
 
-                        y[i] = matrix[i, n + 1];
+                        d = d + Math.Pow((y[i] - x[i]), 2);
                     }
 
                     d = Math.Sqrt(d);
@@ -85,17 +84,22 @@ namespace NumericalMethods
             return y;
         }
 
-        static bool GetConvergence(int n, double[,] matrix)
+        static double GetConvergence(int n, double[,] matrix, double d)
         {
-            bool b = false;
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
-
+                    if(i != j)
+                    {
+                        matrix[i, j] = -matrix[i, j] / matrix[i, i];
+                        d += Math.Pow(matrix[i, j], 2);
+                    }
                 }
+                matrix[i, n] = matrix[i, n] / matrix[i, i];
+                matrix[i, i] = 0;
             }
-            return b;
+            return d;
         }
     }
 }

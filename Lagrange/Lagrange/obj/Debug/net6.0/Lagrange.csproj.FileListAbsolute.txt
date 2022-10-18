@@ -1,0 +1,15 @@
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\bin\Debug\net6.0\Lagrange.exe
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\bin\Debug\net6.0\Lagrange.deps.json
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\bin\Debug\net6.0\Lagrange.runtimeconfig.json
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\bin\Debug\net6.0\Lagrange.dll
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\bin\Debug\net6.0\Lagrange.pdb
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\obj\Debug\net6.0\Lagrange.csproj.AssemblyReference.cache
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\obj\Debug\net6.0\Lagrange.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\obj\Debug\net6.0\Lagrange.AssemblyInfoInputs.cache
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\obj\Debug\net6.0\Lagrange.AssemblyInfo.cs
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\obj\Debug\net6.0\Lagrange.csproj.CoreCompileInputs.cache
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\obj\Debug\net6.0\Lagrange.dll
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\obj\Debug\net6.0\refint\Lagrange.dll
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\obj\Debug\net6.0\Lagrange.pdb
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\obj\Debug\net6.0\Lagrange.genruntimeconfig.cache
+C:\Users\Руслана\source\repos\Other-codes\Lagrange\Lagrange\obj\Debug\net6.0\ref\Lagrange.dll

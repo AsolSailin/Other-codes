@@ -10,8 +10,9 @@ namespace NumericalMethods
     {
         static void Main(string[] args)
         {
-            int n = 3;
             double e = 0.001;
+
+            int n = 3;
             double[,] a =
             {
                 { 16.63, -0.24, -6.10, 7.29 },
@@ -28,10 +29,6 @@ namespace NumericalMethods
                 {
                     Console.WriteLine(x[i] + " ");
                 }
-            }
-            else
-            {
-                Console.WriteLine($"Условие сходисмости не выполняется");
             }
         }
 

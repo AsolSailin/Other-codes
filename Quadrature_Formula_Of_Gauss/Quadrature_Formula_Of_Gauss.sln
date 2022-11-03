@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadrature_Formula_Of_Gauss", "Quadrature_Formula_Of_Gauss\Quadrature_Formula_Of_Gauss.csproj", "{EE18695B-8ABF-4A12-96D1-E6FA8B6B5F00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE18695B-8ABF-4A12-96D1-E6FA8B6B5F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE18695B-8ABF-4A12-96D1-E6FA8B6B5F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE18695B-8ABF-4A12-96D1-E6FA8B6B5F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE18695B-8ABF-4A12-96D1-E6FA8B6B5F00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

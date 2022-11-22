@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler_Method", "Euler_Method\Euler_Method.csproj", "{B1CD13D9-3335-4523-9003-1904F5E24A5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1CD13D9-3335-4523-9003-1904F5E24A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CD13D9-3335-4523-9003-1904F5E24A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CD13D9-3335-4523-9003-1904F5E24A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CD13D9-3335-4523-9003-1904F5E24A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
